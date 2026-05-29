@@ -1,7 +1,10 @@
 # NotebookLM-FInan-as-B-sicas-DIO.me
 PT: Caderno temático no NotebookLM sobre educação financeira básica, com fontes abertas, testes de prompts, resumos, glossário e revisão ativa. EN: NotebookLM theme notebook on basic financial education, using open sources, prompt tests, summaries, glossary, and active review.
+
 Caderno Temático | Thematic Notebook
+
 PT-BR: Projeto desenvolvido no NotebookLM sobre educação financeira básica, com curadoria de fontes abertas, testes de prompts e criação de um miniguia de estudo.
+
 EN: Project developed in NotebookLM on basic financial education, with curated open sources, prompt testing, and a final study mini-guide.
 
 🇧🇷 Versão em Português
