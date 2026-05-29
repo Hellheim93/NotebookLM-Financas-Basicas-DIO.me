@@ -5,7 +5,9 @@ PT-BR: Projeto desenvolvido no NotebookLM sobre educação financeira básica, c
 EN: Project developed in NotebookLM on basic financial education, with curated open sources, prompt testing, and a final study mini-guide.
 
 🇧🇷 Versão em Português
+
 Sobre o projeto
+
 Este projeto foi desenvolvido como parte de um desafio prático com foco na criação de um caderno temático no NotebookLM. A proposta foi reunir fontes abertas sobre um tema financeiro introdutório e transformar esse material em um conteúdo mais claro, estudável e útil para revisões futuras.
 
 A escolha do tema foi educação financeira básica, justamente por ser um assunto acessível, relevante no dia a dia e excelente para trabalhar com resumos, glossário, perguntas estratégicas e prompts reutilizáveis. A ideia foi usar IA como apoio ao estudo de forma crítica, organizada e sem depender cegamente das respostas.
@@ -169,8 +171,12 @@ Consumo consciente: compra com análise e responsabilidade.
 
 Reserva de emergência: quantia guardada para imprevistos.
 
+
+
 🇺🇸 English Version
+
 About the project
+
 This project was developed as part of a practical challenge focused on creating a thematic notebook in NotebookLM. The idea was to gather open sources about an introductory financial topic and turn that material into clearer, more structured, and more useful study content.
 
 The chosen theme was basic financial education, since it is accessible, relevant to everyday life, and a strong fit for summaries, glossary building, strategic questions, and reusable prompts. The goal was to use AI as a study support tool in a critical and organized way, rather than simply accepting every answer at face value.
