@@ -5,7 +5,7 @@ PT: Caderno temático no NotebookLM sobre educação financeira básica, com fon
 Este notebook foi criado para um projeto da DIO.me, mas está livre apra uso e estudo dentro da área (enjoy :])
 [https://notebooklm.google.com/notebook/e72f431c-b5fa-4be2-99d6-7adcb79b55de]
 
-Notebook used
+##Notebook used
 This notebook was created for a DIO.me project, but it is freely available for study and use within this subject area (enjoy :])
 [https://notebooklm.google.com/notebook/e72f431c-b5fa-4be2-99d6-7adcb79b55de]
 
@@ -17,19 +17,19 @@ EN: Project developed in NotebookLM on basic financial education, with curated o
 
 🇧🇷 Versão em Português
 
-Sobre o projeto
+**Sobre o projeto**
 
 Este projeto foi desenvolvido como parte de um desafio prático com foco na criação de um caderno temático no NotebookLM. A proposta foi reunir fontes abertas sobre um tema financeiro introdutório e transformar esse material em um conteúdo mais claro, estudável e útil para revisões futuras.
 
 A escolha do tema foi educação financeira básica, justamente por ser um assunto acessível, relevante no dia a dia e excelente para trabalhar com resumos, glossário, perguntas estratégicas e prompts reutilizáveis. A ideia foi usar IA como apoio ao estudo de forma crítica, organizada e sem depender cegamente das respostas.
 
-Tema escolhido
+<h2>Tema escolhido</h2>
 
 Educação financeira básica e gestão de finanças pessoais.
 
 Esse tema permite estudar conceitos essenciais como orçamento, receita, despesa, crédito, endividamento, consumo consciente e reserva de emergência. Além disso, ele se encaixa muito bem na proposta do desafio por ser introdutório e ter bastante material aberto e confiável disponível.
 
-Objetivos de estudo
+**Objetivos de estudo**
 
 Compreender os principais conceitos de educação financeira.
 
@@ -41,7 +41,7 @@ Identificar riscos do uso inadequado do crédito.
 
 Organizar um material de revisão com resumo, glossário e prompts reutilizáveis.
 
-Fontes principais
+<h3>Fontes principais</h3>
 
 Banco Central do Brasil — Caderno de Educação Financeira
 https://www.bcb.gov.br/pre/pef/port/caderno_cidadania_financeira.pdf
@@ -68,7 +68,7 @@ https://fia.com.br/blog/educacao-financeira/
 APB — Revista Educação Financeira
 https://www.apb.pt/content/files/revista_educao_financeira.pdf
 
-Vídeos de apoio
+**Vídeos de apoio**
 
 https://www.youtube.com/watch?v=yI97mmBJvGI
 
@@ -86,27 +86,28 @@ https://www.youtube.com/watch?v=HSXcvFVtsdM
 
 https://www.youtube.com/watch?v=L77tVt9aqTA
 
-Estratégia de estudo no NotebookLM
+**Estratégia de estudo no NotebookLM**
 
 As fontes foram adicionadas ao NotebookLM para ajudar na organização do conteúdo e na extração de informações úteis para revisão. A estratégia foi dividir o estudo em etapas: primeiro entender os conceitos principais, depois comparar ideias parecidas, em seguida transformar tudo em resumo estruturado e, por fim, consolidar o conteúdo em um miniguia.
 
-Perguntas estratégicas
+<h2>Perguntas estratégicas</h2>
 
 O que é educação financeira e por que ela é importante?
+<img width="628" height="312" alt="image" src="https://github.com/user-attachments/assets/a4ec8de6-2536-4d13-8ff6-e7423ec0d323" />
+
 
 Qual é a diferença entre receita, despesa, necessidade e desejo?
+<img width="626" height="477" alt="image" src="https://github.com/user-attachments/assets/2ebf6705-62f1-495d-87d9-a360786a3ed9" />
 
 Como montar um orçamento pessoal simples?
+<img width="619" height="540" alt="image" src="https://github.com/user-attachments/assets/2824d299-2459-4f3d-92a8-a2d401374b54" />
 
 Quais hábitos ajudam a evitar o endividamento?
+<img width="629" height="427" alt="image" src="https://github.com/user-attachments/assets/5f244052-1496-442c-8de1-aa2841c73aaa" />
 
-Como o crédito pode ser útil e perigoso ao mesmo tempo?
+**Prompts recomendados**
 
-Quais conceitos são indispensáveis para iniciantes?
-
-Prompts recomendados
-
-Prompts de base:
+**Prompts de base:**
 
 "Resuma os principais conceitos de educação financeira presentes nas fontes enviadas, em linguagem simples e objetiva."
 
@@ -127,7 +128,7 @@ Prompts de base:
 <img width="639" height="747" alt="image" src="https://github.com/user-attachments/assets/21c923a9-e0b1-412d-be9a-37a34d0add8e" />
 
 
-Prompts de aprofundamento
+**Prompts de aprofundamento**
 
 "Liste os principais erros financeiros cometidos por iniciantes segundo as fontes."
 
@@ -154,7 +155,7 @@ O principal aprendizado foi que a IA funciona melhor como ferramenta de apoio qu
 <h2>**Miniguia de estudo**</h2> 
 
 
-<h3>**O que é educação financeira**</h3>
+<h3>O que é educação financeira</h3>
 
 **Prompt**
 
@@ -266,11 +267,16 @@ The sources were added to NotebookLM to help organize the content and extract us
 <h2>Strategic questions</h2>
 
 - What is financial education and why is it important?
+  <img width="628" height="312" alt="image" src="https://github.com/user-attachments/assets/ed0effb1-521c-48b9-9f3b-1eb7022be867" />
+
 - What is the difference between income, expenses, needs, and wants?
+  <img width="626" height="477" alt="image" src="https://github.com/user-attachments/assets/22b563ee-15a9-4b91-9dc5-ee2bcc4d5f70" />
+
 - How can a simple personal budget be created?
+  <img width="619" height="540" alt="image" src="https://github.com/user-attachments/assets/2ac1967b-021e-4a03-9691-478efb3a7215" />
+
 - Which habits help prevent debt?
-- How can credit be useful and risky at the same time?
-- Which concepts are essential for beginners?
+  <img width="629" height="427" alt="image" src="https://github.com/user-attachments/assets/79a97078-c102-4e85-ae33-015dce0175af" />
 
 <h2>Recommended prompts</h2>
 
