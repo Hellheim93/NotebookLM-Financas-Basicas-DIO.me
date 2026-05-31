@@ -16,11 +16,13 @@ Este projeto foi desenvolvido como parte de um desafio prático com foco na cria
 A escolha do tema foi educação financeira básica, justamente por ser um assunto acessível, relevante no dia a dia e excelente para trabalhar com resumos, glossário, perguntas estratégicas e prompts reutilizáveis. A ideia foi usar IA como apoio ao estudo de forma crítica, organizada e sem depender cegamente das respostas.
 
 Tema escolhido
+
 Educação financeira básica e gestão de finanças pessoais.
 
 Esse tema permite estudar conceitos essenciais como orçamento, receita, despesa, crédito, endividamento, consumo consciente e reserva de emergência. Além disso, ele se encaixa muito bem na proposta do desafio por ser introdutório e ter bastante material aberto e confiável disponível.
 
 Objetivos de estudo
+
 Compreender os principais conceitos de educação financeira.
 
 Diferenciar receita, despesa, necessidade e desejo.
@@ -32,6 +34,7 @@ Identificar riscos do uso inadequado do crédito.
 Organizar um material de revisão com resumo, glossário e prompts reutilizáveis.
 
 Fontes principais
+
 Banco Central do Brasil — Caderno de Educação Financeira
 https://www.bcb.gov.br/pre/pef/port/caderno_cidadania_financeira.pdf
 
@@ -58,6 +61,7 @@ APB — Revista Educação Financeira
 https://www.apb.pt/content/files/revista_educao_financeira.pdf
 
 Vídeos de apoio
+
 https://www.youtube.com/watch?v=yI97mmBJvGI
 
 https://www.youtube.com/watch?v=htqOxfmg7z8
@@ -75,9 +79,11 @@ https://www.youtube.com/watch?v=HSXcvFVtsdM
 https://www.youtube.com/watch?v=L77tVt9aqTA
 
 Estratégia de estudo no NotebookLM
+
 As fontes foram adicionadas ao NotebookLM para ajudar na organização do conteúdo e na extração de informações úteis para revisão. A estratégia foi dividir o estudo em etapas: primeiro entender os conceitos principais, depois comparar ideias parecidas, em seguida transformar tudo em resumo estruturado e, por fim, consolidar o conteúdo em um miniguia.
 
 Perguntas estratégicas
+
 O que é educação financeira e por que ela é importante?
 
 Qual é a diferença entre receita, despesa, necessidade e desejo?
@@ -91,254 +97,220 @@ Como o crédito pode ser útil e perigoso ao mesmo tempo?
 Quais conceitos são indispensáveis para iniciantes?
 
 Prompts recomendados
-Prompts de base
+
+Prompts de base:
+
 "Resuma os principais conceitos de educação financeira presentes nas fontes enviadas, em linguagem simples e objetiva."
+<img width="568" height="695" alt="image" src="https://github.com/user-attachments/assets/7b665abe-7c56-4ec8-b1ee-f8402c26dd17" />
 
 "Explique a diferença entre receita, despesa, necessidade e desejo com exemplos práticos do cotidiano."
+<img width="811" height="733" alt="image" src="https://github.com/user-attachments/assets/28d5a454-e825-4fa0-9ab8-0113de631c52" />
 
 "Monte um resumo estruturado sobre orçamento pessoal, crédito e prevenção ao endividamento com base nas fontes."
+<img width="640" height="429" alt="image" src="https://github.com/user-attachments/assets/59ad3724-b701-40c5-9de4-367223df8296" />
+<img width="639" height="355" alt="image" src="https://github.com/user-attachments/assets/6803d12a-ecb4-497a-8a83-ac39823f9ad0" />
+<img width="621" height="432" alt="image" src="https://github.com/user-attachments/assets/7c2ec89b-b6ab-4b13-9610-4593308c9ace" />
 
 "Crie um glossário com os termos financeiros mais importantes e defina cada um em até duas linhas."
+<img width="639" height="747" alt="image" src="https://github.com/user-attachments/assets/21c923a9-e0b1-412d-be9a-37a34d0add8e" />
+
 
 Prompts de aprofundamento
+
 "Liste os principais erros financeiros cometidos por iniciantes segundo as fontes."
+<img width="623" height="401" alt="image" src="https://github.com/user-attachments/assets/14ca2e92-6bff-46e7-ac66-a93741a93f53" />
+
 
 "Explique como o uso inadequado do crédito pode gerar endividamento."
+<img width="632" height="601" alt="image" src="https://github.com/user-attachments/assets/eaa669c3-21cc-4dbf-9488-6501434716ac" />
 
 "Transforme o conteúdo das fontes em um guia de revisão para quem vai estudar esse tema pela primeira vez."
+<img width="634" height="639" alt="image" src="https://github.com/user-attachments/assets/0e808ece-5dc2-43f5-bc88-237eea78d49b" />
 
-"Compare os conceitos de consumo consciente, planejamento financeiro e reserva de emergência."
 
-Prompts de revisão rápida
-"Crie perguntas e respostas para revisar este conteúdo antes de uma atividade avaliativa."
+<h2>Engenharia de prompts e aprendizados</h2>
 
-"Resuma este tema em tópicos curtos para revisão de última hora."
-
-"Explique este conteúdo como se fosse para um iniciante total."
-
-"Organize os conceitos em ordem de importância para quem está começando."
-
-Engenharia de prompts e aprendizados
-Durante os testes, foi possível perceber que prompts muito amplos geravam respostas genéricas. Já os prompts mais claros, com foco, limite de tamanho e pedido de exemplos, geravam respostas muito mais úteis para estudo.
+Durante os testes, foi possível perceber que prompts muito amplos (aqueles sem um pedido muito aprofundado, um guardrail ou exemplos) geravam respostas que aparentavam ser mais genéricas, mesmo ainda sendo dentro do assunto. Já os prompts mais claros, com foco, limite de tamanho e pedido de exemplos, geravam respostas muito mais úteis para estudo.
 
 O principal aprendizado foi que a IA funciona melhor como ferramenta de apoio quando as perguntas são bem construídas. Quanto mais claro o pedido, melhor a resposta final.
 
-Miniguia de estudo
-O que é educação financeira
-Educação financeira é o processo de aprender a lidar melhor com o dinheiro, compreendendo como ele entra, sai, é planejado e impacta a vida pessoal.
+<font size="2" color="gray"><i>Nota mental: descobrir coo fazer a IA parar de repetir alguns termos como "de acordo com as fontes"</i></font>   
 
-Conceitos fundamentais
+<h2>**Miniguia de estudo**</h2> 
+
+
+<h3>**O que é educação financeira**</h3>
+
+**Prompt**
+
+"Agora faça um miniguia sobre educação financeira. Explique de forma breve em duas linhas o que é educação financeira, em seguida faça uma lista dos principais termos utilizados para facilitar os estudos ( cada termo com no máximo 2 linhas para explicar)
+
+
+EXEMPLO:
+Educação financeira é (... continue a explicação)
+
+
+Conceitos fundamentais:
+
+
 Receita: dinheiro que entra.
+
 
 Despesa: dinheiro que sai.
 
-Necessidade: gasto essencial.
 
-Desejo: gasto não essencial.
+Necessidade: gasto essencial."
 
-Orçamento: organização das entradas e saídas.
+**RESPOSTA:**
 
-Crédito: uso de dinheiro com pagamento futuro.
+**Educação Financeira** é o processo de melhorar sua compreensão sobre conceitos e produtos financeiros para desenvolver habilidades que permitam tomar decisões conscientes e seguras. Ela busca promover o uso inteligente dos recursos para aumentar o bem-estar e garantir a sustentabilidade do seu futuro.
 
-Endividamento: acúmulo de dívidas.
+Abaixo, apresento os **conceitos fundamentais** para facilitar sua jornada de estudos:
 
-Reserva de emergência: valor guardado para imprevistos.
+*   **Receita:** Representa toda a **entrada de dinheiro**, como salários, rendas extras, comissões ou rendimentos de investimentos.
+*   **Despesa:** É todo o **dinheiro que sai** da sua conta, podendo ser fixa (recorrente como aluguel) ou variável (oscila conforme o uso).
+*   **Necessidade:** Refere-se a gastos **indispensáveis para a vida** e sobrevivência, como alimentação básica, moradia, saúde e transporte essencial.
+*   **Desejo:** Envolve vontades ligadas ao **prazer, conforto ou status social**, que não são vitais para a sobrevivência imediata.
+*   **Orçamento:** Ferramenta central de planejamento para **registrar e equilibrar** o que você ganha e o que você gasta mensalmente.
+*   **Poupança:** É a diferença positiva entre sua receita e sua despesa; o ato de **adiar o consumo hoje** para ter recursos amanhã.
+*   **Investimento:** É a aplicação do dinheiro poupado com o objetivo de obter uma remuneração ou lucro no futuro, fazendo o **dinheiro "trabalhar"**.
+*   **Crédito:** Recurso financeiro obtido de terceiros (bancos ou lojas) que permite **antecipar um consumo** mediante o pagamento de juros.
+*   **Juros:** Funcionam como o **"aluguel" do dinheiro**; é o custo pago por quem toma crédito ou o prêmio recebido por quem investe.
+*   **Reserva de Emergência:** Valor guardado especificamente para **cobrir imprevistos** e crises, evitando que você precise recorrer a empréstimos caros.
+*   **Patrimônio Líquido:** É a **soma de todos os seus bens** e direitos financeiros após subtrair todas as suas dívidas e obrigações.
+*   **Inflação:** O **aumento generalizado dos preços** que faz com que o dinheiro perca seu poder de compra ao longo do tempo.
+*   **Liquidez:** A facilidade e **rapidez com que um investimento** pode ser transformado novamente em dinheiro disponível no bolso.
+*   **Troca Intertemporal:** A **decisão consciente** entre gastar agora (assumindo uma posição devedora) ou poupar agora para consumir mais no futuro.
 
-Organização do orçamento pessoal
-Registrar receitas e despesas é o primeiro passo para entender a situação financeira real. A partir disso, fica mais fácil planejar gastos, evitar excessos e tomar decisões melhores.
 
-Uso consciente do crédito
-O crédito pode ser útil, mas exige cuidado. Antes de assumir parcelas ou empréstimos, é importante avaliar juros, prazos e impacto no orçamento.
+**EN**
 
-Prevenção ao endividamento
-A prevenção ao endividamento depende de hábitos consistentes, como acompanhar gastos, evitar compras impulsivas e manter uma reserva de emergência.
+<h2>About the project</h2>
 
-Glossário
-Educação financeira: aprendizado sobre uso consciente do dinheiro.
+This project was created as part of a practical challenge centered on building a thematic notebook in NotebookLM. The goal was to bring together open sources on an introductory financial topic and turn that material into something clearer, easier to study, and more useful for future review.
 
-Receita: entrada de dinheiro.
+The topic chosen was **basic financial education**, mainly because it is accessible, relevant to everyday life, and a great fit for summaries, glossaries, strategic questions, and reusable prompts. The idea was to use AI as a study companion in a thoughtful and organized way, without blindly trusting every answer it gives.
 
-Despesa: saída de dinheiro.
+<h2>Chosen topic</h2>
 
-Planejamento financeiro: organização antecipada dos recursos.
+**Basic financial education and personal finance management.**
 
-Orçamento pessoal: controle das entradas e saídas.
+This topic makes it possible to explore essential ideas like budgeting, income, expenses, credit, debt, conscious consumption, and emergency savings. It also fits the challenge well because it is introductory and has plenty of reliable open material available.
 
-Crédito: valor utilizado agora para pagar depois.
+<h2>Study goals</h2>
 
-Juros: custo do dinheiro emprestado.
+- Understand the main concepts of financial education.
+- Differentiate income, expenses, needs, and wants.
+- Learn how a simple personal budget works.
+- Identify the risks of using credit the wrong way.
+- Organize review material with a summary, glossary, and reusable prompts.
 
-Endividamento: excesso de compromissos financeiros.
+<h2>Main sources</h2>
 
-Consumo consciente: compra com análise e responsabilidade.
+- **Central Bank of Brazil — Financial Education Handbook**  
+  [https://www.bcb.gov.br/pre/pef/port/caderno_cidadania_financeira.pdf](https://www.bcb.gov.br/pre/pef/port/caderno_cidadania_financeira.pdf)
 
-Reserva de emergência: quantia guardada para imprevistos.
+- **Idec — Financial Education Guide**  
+  [https://www.idec.org.br/pdf/guia_educacao_financeira.pdf](https://www.idec.org.br/pdf/guia_educacao_financeira.pdf)
 
+- **eduCAPES — Basic Personal Finance Handbook**  
+  [https://educapes.capes.gov.br/bitstream/capes/430564/2/Apostila%20B%C3%A1sico%20em%20Finan%C3%A7as%20Pessoais.pdf](https://educapes.capes.gov.br/bitstream/capes/430564/2/Apostila%20B%C3%A1sico%20em%20Finan%C3%A7as%20Pessoais.pdf)
 
+- **Central Bank — Aprender Valor Program**  
+  [https://aprendervalor.bcb.gov.br/](https://aprendervalor.bcb.gov.br/)
 
-🇺🇸 English Version
+<h2>Additional sources</h2>
 
-About the project
+- **DGE — Financial Education Reference Framework**  
+  [https://www.dge.mec.pt/sites/default/files/ficheiros/referencial_de_educacao_financeira_final_versao_port.pdf](https://www.dge.mec.pt/sites/default/files/ficheiros/referencial_de_educacao_financeira_final_versao_port.pdf)
 
-This project was developed as part of a practical challenge focused on creating a thematic notebook in NotebookLM. The idea was to gather open sources about an introductory financial topic and turn that material into clearer, more structured, and more useful study content.
+- **FACCAT — Financial Education in Basic Education**  
+  [https://www2.faccat.br/portal/sites/default/files/1_a_educacao.pdf](https://www2.faccat.br/portal/sites/default/files/1_a_educacao.pdf)
 
-The chosen theme was basic financial education, since it is accessible, relevant to everyday life, and a strong fit for summaries, glossary building, strategic questions, and reusable prompts. The goal was to use AI as a study support tool in a critical and organized way, rather than simply accepting every answer at face value.
+- **FIA — Practical Guide to Financial Education**  
+  [https://fia.com.br/blog/educacao-financeira/](https://fia.com.br/blog/educacao-financeira/)
 
-Chosen topic
-Basic financial education and personal finance management.
+- **APB — Financial Education Magazine**  
+  [https://www.apb.pt/content/files/revista_educao_financeira.pdf](https://www.apb.pt/content/files/revista_educao_financeira.pdf)
 
-This topic makes it possible to study essential concepts such as budgeting, income, expenses, credit, debt, conscious consumption, and emergency savings. It also fits the challenge very well because it is introductory and has plenty of reliable open material available.
+<h2>Supporting videos</h2>
 
-Study goals
-Understand the main concepts of financial education.
+- [https://www.youtube.com/watch?v=yI97mmBJvGI](https://www.youtube.com/watch?v=yI97mmBJvGI)
+- [https://www.youtube.com/watch?v=htqOxfmg7z8](https://www.youtube.com/watch?v=htqOxfmg7z8)
+- [https://www.youtube.com/watch?v=UMxSHX712qo](https://www.youtube.com/watch?v=UMxSHX712qo)
+- [https://www.youtube.com/watch?v=crVDjTPC_po](https://www.youtube.com/watch?v=crVDjTPC_po)
+- [https://www.youtube.com/watch?v=3Rtfehx_270](https://www.youtube.com/watch?v=3Rtfehx_270)
+- [https://www.youtube.com/watch?v=VLypOc9mdX8](https://www.youtube.com/watch?v=VLypOc9mdX8)
+- [https://www.youtube.com/watch?v=HSXcvFVtsdM](https://www.youtube.com/watch?v=HSXcvFVtsdM)
+- [https://www.youtube.com/watch?v=L77tVt9aqTA](https://www.youtube.com/watch?v=L77tVt9aqTA)
 
-Differentiate income, expenses, needs, and wants.
+<h2>NotebookLM study strategy</h2>
 
-Learn how a simple personal budget works.
+The sources were added to NotebookLM to help organize the content and extract useful information for review. The study flow was simple: first understand the key concepts, then compare similar ideas, then turn everything into a structured summary, and finally consolidate the material into a mini-guide.
 
-Identify risks related to the misuse of credit.
+<h2>Strategic questions</h2>
 
-Organize a review material with summaries, glossary, and reusable prompts.
+- What is financial education and why is it important?
+- What is the difference between income, expenses, needs, and wants?
+- How can a simple personal budget be created?
+- Which habits help prevent debt?
+- How can credit be useful and risky at the same time?
+- Which concepts are essential for beginners?
 
-Main sources
-Central Bank of Brazil — Financial Education Handbook
-https://www.bcb.gov.br/pre/pef/port/caderno_cidadania_financeira.pdf
+<h2>Recommended prompts</h2>
 
-Idec — Financial Education Guide
-https://www.idec.org.br/pdf/guia_educacao_financeira.pdf
+<h3>Base prompts</h3>
 
-eduCAPES — Basic Personal Finance Handbook
-https://educapes.capes.gov.br/bitstream/capes/430564/2/Apostila%20B%C3%A1sico%20em%20Finan%C3%A7as%20Pessoais.pdf
+- "**Summarize the main financial education concepts present in the sources using simple and objective language.**"  
+<img width="568" height="695" alt="image" src="https://github.com/user-attachments/assets/7b665abe-7c56-4ec8-b1ee-f8402c26dd17" />
 
-Central Bank — Aprender Valor Program
-https://aprendervalor.bcb.gov.br/
+- "**Explain the difference between income, expenses, needs, and wants with practical everyday examples.**"  
+<img width="811" height="733" alt="image" src="https://github.com/user-attachments/assets/28d5a454-e825-4fa0-9ab8-0113de631c52" />
 
-Additional sources
-DGE — Financial Education Reference Framework
-https://www.dge.mec.pt/sites/default/files/ficheiros/referencial_de_educacao_financeira_final_versao_port.pdf
+- "**Create a structured summary about personal budgeting, credit, and debt prevention based on the sources.**"  
+<img width="640" height="429" alt="image" src="https://github.com/user-attachments/assets/59ad3724-b701-40c5-9de4-367223df8296" />
+<img width="639" height="355" alt="image" src="https://github.com/user-attachments/assets/6803d12a-ecb4-497a-8a83-ac39823f9ad0" />
+<img width="621" height="432" alt="image" src="https://github.com/user-attachments/assets/7c2ec89b-b6ab-4b13-9610-4593308c9ace" />
 
-FACCAT — Financial Education in Basic Education
-https://www2.faccat.br/portal/sites/default/files/1_a_educacao.pdf
+- "**Create a glossary with the most important financial terms and define each one in up to two lines.**"  
+<img width="639" height="747" alt="image" src="https://github.com/user-attachments/assets/21c923a9-e0b1-412d-be9a-37a34d0add8e" />
 
-FIA — Practical Guide to Financial Education
-https://fia.com.br/blog/educacao-financeira/
+<h3>Deepening prompts</h3>
 
-APB — Financial Education Magazine
-https://www.apb.pt/content/files/revista_educao_financeira.pdf
+- "**List the main financial mistakes made by beginners according to the sources.**"  
+<img width="623" height="401" alt="image" src="https://github.com/user-attachments/assets/14ca2e92-6bff-46e7-ac66-a93741a93f53" />
 
-Supporting videos
-https://www.youtube.com/watch?v=yI97mmBJvGI
+- "**Explain how the misuse of credit can lead to debt.**"  
+<img width="632" height="601" alt="image" src="https://github.com/user-attachments/assets/eaa669c3-21cc-4dbf-9488-6501434716ac" />
 
-https://www.youtube.com/watch?v=htqOxfmg7z8
+- "**Turn the source content into a review guide for someone studying this topic for the first time.**"  
+<img width="634" height="639" alt="image" src="https://github.com/user-attachments/assets/0e808ece-5dc2-43f5-bc88-237eea78d49b" />
 
-https://www.youtube.com/watch?v=UMxSHX712qo
+<h2>Prompt engineering and learnings</h2>
 
-https://www.youtube.com/watch?v=crVDjTPC_po
+During testing, it became clear that very broad prompts, especially those without much direction or any examples, tended to produce more generic answers. On the other hand, clearer prompts with focus, length limits, and requests for examples produced much more useful study material.
 
-https://www.youtube.com/watch?v=3Rtfehx_270
+The biggest takeaway was that AI works best as a support tool when the questions are well written. The clearer the request, the better the final answer.
 
-https://www.youtube.com/watch?v=VLypOc9mdX8
+<h2>Mini study guide</h2>
 
-https://www.youtube.com/watch?v=HSXcvFVtsdM
+<h3>What financial education is</h3>
 
-https://www.youtube.com/watch?v=L77tVt9aqTA
+Financial education is the process of improving your understanding of financial concepts and products so you can make conscious and safer decisions. It helps people use money more wisely and build a more stable future.
 
-NotebookLM study strategy
-The sources were added to NotebookLM to help organize the content and extract useful information for review. The study strategy followed clear steps: first understanding the main concepts, then comparing related ideas, then turning the material into structured summaries, and finally consolidating everything into a mini-guide.
+<h3>Key concepts</h3>
 
-Strategic questions
-What is financial education and why is it important?
-
-What is the difference between income, expenses, needs, and wants?
-
-How can a simple personal budget be created?
-
-Which habits help prevent debt?
-
-How can credit be useful and risky at the same time?
-
-Which concepts are essential for beginners?
-
-Recommended prompts
-Base prompts
-"Summarize the main financial education concepts present in the uploaded sources using simple and objective language."
-
-"Explain the difference between income, expenses, needs, and wants with practical daily-life examples."
-
-"Create a structured summary about personal budgeting, credit, and debt prevention based on the sources."
-
-"Create a glossary with the most important financial terms and define each one in up to two lines."
-
-Deepening prompts
-"List the main financial mistakes beginners make according to the sources."
-
-"Explain how the misuse of credit can lead to debt."
-
-"Turn the source content into a review guide for someone studying this topic for the first time."
-
-"Compare the concepts of conscious consumption, financial planning, and emergency savings."
-
-Quick review prompts
-"Create questions and answers to review this content before an assessment."
-
-"Summarize this topic into short bullet points for last-minute review."
-
-"Explain this content as if it were for a complete beginner."
-
-"Organize the concepts in order of importance for someone who is just starting."
-
-Prompt engineering and lessons learned
-During testing, it became clear that prompts that were too broad often generated generic answers. On the other hand, clearer prompts with focus, size limits, and requests for examples produced much more useful study material.
-
-The main lesson learned was that AI works better as a support tool when the questions are well written. The clearer the request, the better the final answer.
-
-Study mini-guide
-What is financial education
-Financial education is the process of learning how to handle money better by understanding how it is earned, spent, planned, and how it impacts personal life.
-
-Fundamental concepts
-Income: money that comes in.
-
-Expense: money that goes out.
-
-Need: essential spending.
-
-Want: non-essential spending.
-
-Budget: organization of income and expenses.
-
-Credit: use of money now with future payment.
-
-Debt: accumulation of financial obligations.
-
-Emergency savings: money set aside for unexpected situations.
-
-Personal budgeting
-Tracking income and expenses is the first step toward understanding one’s real financial situation. From that point, it becomes easier to plan expenses, avoid excess, and make better decisions.
-
-Conscious use of credit
-Credit can be useful, but it requires caution. Before taking on installments or loans, it is important to evaluate interest rates, deadlines, and the impact on the budget.
-
-Debt prevention
-Preventing debt depends on consistent habits such as tracking expenses, avoiding impulse buying, and maintaining emergency savings.
-
-Glossary
-Financial education: learning about the conscious use of money.
-
-Income: money coming in.
-
-Expense: money going out.
-
-Financial planning: prior organization of financial resources.
-
-Personal budget: control of income and expenses.
-
-Credit: money used now and paid later.
-
-Interest: the cost of borrowed money.
-
-Debt: accumulation of financial obligations.
-
-Conscious consumption: purchasing with analysis and responsibility.
-
-Emergency savings: money reserved for unexpected events.
+- **Income:** money that comes in, such as salary, extra earnings, commissions, or investment returns.
+- **Expense:** money that goes out, whether fixed or variable.
+- **Need:** essential spending required for basic life and well-being.
+- **Want:** spending based on comfort, desire, or status, but not essential for survival.
+- **Budget:** a planning tool used to organize and balance income and expenses.
+- **Savings:** the positive difference between income and expenses, or the act of setting money aside for later.
+- **Investment:** money put to work with the goal of generating returns in the future.
+- **Credit:** money borrowed from a third party, such as a bank or store, and paid back later with interest.
+- **Interest:** the cost of borrowing money, or the reward for investing it.
+- **Emergency fund:** money reserved specifically for unexpected situations.
+- **Net worth:** the total value of assets and rights after subtracting debts and obligations.
+- **Inflation:** the general increase in prices that reduces purchasing power over time.
+- **Liquidity:** how quickly an investment can be turned into available cash.
+- **Intertemporal trade-off:** the choice between spending now or saving now to consume more in the future.
