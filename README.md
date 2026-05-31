@@ -2,7 +2,7 @@
 PT: Caderno temático no NotebookLM sobre educação financeira básica, com fontes abertas, testes de prompts, resumos, glossário e revisão ativa. EN: NotebookLM theme notebook on basic financial education, using open sources, prompt tests, summaries, glossary, and active review.
 
 ##Notebook utilizado
-Este notebook foi criado para um projeto da DIO.me, mas está livre apra uso e estudo dentro da área (enjoy :])
+Este notebook foi criado para um projeto da DIO.me, mas está livre para uso e estudo dentro da área (enjoy :])
 [https://notebooklm.google.com/notebook/e72f431c-b5fa-4be2-99d6-7adcb79b55de]
 
 ##Notebook used
