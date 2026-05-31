@@ -109,30 +109,37 @@ Prompts recomendados
 Prompts de base:
 
 "Resuma os principais conceitos de educação financeira presentes nas fontes enviadas, em linguagem simples e objetiva."
+
 <img width="568" height="695" alt="image" src="https://github.com/user-attachments/assets/7b665abe-7c56-4ec8-b1ee-f8402c26dd17" />
 
 "Explique a diferença entre receita, despesa, necessidade e desejo com exemplos práticos do cotidiano."
+
 <img width="811" height="733" alt="image" src="https://github.com/user-attachments/assets/28d5a454-e825-4fa0-9ab8-0113de631c52" />
 
 "Monte um resumo estruturado sobre orçamento pessoal, crédito e prevenção ao endividamento com base nas fontes."
+
 <img width="640" height="429" alt="image" src="https://github.com/user-attachments/assets/59ad3724-b701-40c5-9de4-367223df8296" />
 <img width="639" height="355" alt="image" src="https://github.com/user-attachments/assets/6803d12a-ecb4-497a-8a83-ac39823f9ad0" />
 <img width="621" height="432" alt="image" src="https://github.com/user-attachments/assets/7c2ec89b-b6ab-4b13-9610-4593308c9ace" />
 
 "Crie um glossário com os termos financeiros mais importantes e defina cada um em até duas linhas."
+
 <img width="639" height="747" alt="image" src="https://github.com/user-attachments/assets/21c923a9-e0b1-412d-be9a-37a34d0add8e" />
 
 
 Prompts de aprofundamento
 
 "Liste os principais erros financeiros cometidos por iniciantes segundo as fontes."
+
 <img width="623" height="401" alt="image" src="https://github.com/user-attachments/assets/14ca2e92-6bff-46e7-ac66-a93741a93f53" />
 
 
 "Explique como o uso inadequado do crédito pode gerar endividamento."
+
 <img width="632" height="601" alt="image" src="https://github.com/user-attachments/assets/eaa669c3-21cc-4dbf-9488-6501434716ac" />
 
 "Transforme o conteúdo das fontes em um guia de revisão para quem vai estudar esse tema pela primeira vez."
+
 <img width="634" height="639" alt="image" src="https://github.com/user-attachments/assets/0e808ece-5dc2-43f5-bc88-237eea78d49b" />
 
 
@@ -142,7 +149,7 @@ Durante os testes, foi possível perceber que prompts muito amplos (aqueles sem 
 
 O principal aprendizado foi que a IA funciona melhor como ferramenta de apoio quando as perguntas são bem construídas. Quanto mais claro o pedido, melhor a resposta final.
 
-<font size="2" color="gray"><i>Nota mental: descobrir coo fazer a IA parar de repetir alguns termos como "de acordo com as fontes"</i></font>   
+<font size="2" color="gray"><i>Nota mental: descobrir como fazer a IA parar de repetir alguns termos como "de acordo com as fontes"</i></font>   
 
 <h2>**Miniguia de estudo**</h2> 
 
